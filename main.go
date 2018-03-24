@@ -23,7 +23,7 @@ func webhook(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/", webhook)
+	http.HandleFunc("/webhook", webhook)
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
