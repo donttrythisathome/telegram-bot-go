@@ -1,0 +1,8 @@
+{
+    "telegram_uri":"https://api.telegram.org/bot<token>/",
+    "bots":{
+        "donttrythisathome":{
+            "token":"DTTH_TOKEN"
+        }
+    }
+}
